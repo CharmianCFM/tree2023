@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es5",  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    /* Modules */
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "jsx": "react", // 指定jsx的编译方式
+    "outDir": "./dist", // 输出目录
+    "rootDir": "./src", //源文件目录
+    "noImplicitAny": true, // 不允许默认为any
+    "esModuleInterop": true, // 是否允许使用es6的模块化语法 可实现commonjs和es6module的转换
+  },
+  "include": [
+    "./src/**/*",
+    "./typings/**/*",
+  ],
+}
