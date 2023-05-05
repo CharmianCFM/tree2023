@@ -10,7 +10,7 @@ module.exports = {
     devtool: 'source-map',
     devServer: {
         hot: true,
-        contentBase: path.resolve(__dirname, 'dist'),
+        // contentBase: path.resolve(__dirname, 'dist'),
         historyApiFallback: {
             index: 'index.html'
         }
